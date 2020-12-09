@@ -64,7 +64,7 @@ h6 {
 .navbar-brand {
     font-family: 'Texturina', serif;
     font-style: italic;
-    font-size: xx-large;
+    font-size: large;
     padding: 0%;
     margin-left: 20%;
     cursor: pointer;
@@ -281,7 +281,7 @@ h4 {
     .navbar-brand {
         font-family: 'Texturina', serif;
         font-style: italic;
-        font-size: xx-large;
+        font-size: large;
         padding: 0%;
     }
 
