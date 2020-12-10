@@ -3,6 +3,10 @@
     height: 2.5%;
 }
 
+#banner {
+    width: 100%;
+}
+
 #avatar {
     float: right;
     height: 18%;
@@ -40,6 +44,10 @@
     #footerPic {
         width: 15%;
         height: 20%;
+    }
+
+    #banner {
+        width: 100%;
     }
 
     #avatar {
