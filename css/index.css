@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
-@import url(../shared/images.css);
+@import url(../css/images.css);
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 
 body{
@@ -85,6 +85,8 @@ h6 {
 .card-body {
     height: 20%;
     width: 80%;
+    display: flex;
+    flex-direction: column;
     margin-top: 5%;
     margin-left: 9%;
     background-color:  rgba(219, 211, 188, 0.753);
@@ -95,6 +97,11 @@ h6 {
 .card-title {
     border-bottom: 1px solid goldenrod;
     padding-bottom: 2%;
+}
+
+.credit {
+    font-size: x-small;
+    position: relative;
 }
 
 .bottom-card {
@@ -118,7 +125,7 @@ h6 {
 
 .email-card {
     width: 75%;
-    height: 7%;
+    height: 7.5%;
     background-color: rgba(219, 211, 188, 0.753);
     box-shadow: 0px 3px 19px #00000041;
     padding-top: 3%;
@@ -129,7 +136,7 @@ h6 {
 
 .social-card {
     width: 75%;
-    height: 5%;
+    height: 5.5%;
     background-color: rgba(219, 211, 188, 0.753);
     box-shadow: 0px 3px 19px #00000041;
     margin-left: 9%;
@@ -312,8 +319,8 @@ h4 {
 
     .card-body {
         display: flex;
-        flex-wrap: wrap;
-        height: 30%;
+        flex-direction: column;
+        height: 25%;
         width: 85%;
         margin-top: 5%;
         margin-left: 9%;
@@ -328,6 +335,10 @@ h4 {
 
     .card-text {
         font-family: 'Yeon Sung', cursive;
+    }
+
+    figure {
+        height: 28%;
     }
 
     .bottom-card {
